@@ -1,0 +1,1 @@
+tr -sc 'A-Za-z' '\n' < nyt_200811.txt | tr 'A-Z' 'a-z' | sort | uniq -c
